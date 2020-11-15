@@ -52,8 +52,7 @@ async function downloadPhotos(photos) {
             fs.writeFileSync(`./images/${name}`, image.data);
           }).catch(error => {
             if (error.response) {
-              console.log(`Error: ${error.response.status}`);
-              console.log(error.response.data);
+              console.log(`Error ${error.response.status}: ${error.message}`);
             }
           })
         );
