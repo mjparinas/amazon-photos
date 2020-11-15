@@ -7,8 +7,8 @@ const api = axios.create({
 
 const headers = {
   headers: {
-    "x-amzn-SessionId": "143-4807285-1353237",
-    "Cookie": "session-id=143-4807285-1353237; ubid-acbca=133-0995566-8980709; x-acbca=I1mz6NYHAc4eCBmPAGKn9MgegD1x5@Fs; at-acbca=Atza|IwEBIAJ3M4CIIQNMjcWCStkpSkSHLBR8_w9OzMZVp3zIvtVyPzB7UKObOizmFGKxpu_iOeN6DzuMts_o1Ud9lUwFAputFLTUOfdcx8SySzlSsDXk_xY3W79Q5WpGsdc8v80K2lfBvMwkkVlmz_PAChxu60MgBYKdgSIqAjXcGVum83tsLcoqyI9EbJR6hLteN92k6ezcNki9tz2hFfun_Ch_SEWH;",
+    "x-amzn-SessionId": "141-1113169-3539107",
+    "Cookie": "session-id=141-1113169-3539107; ubid-acbca=135-1070176-3102258; x-acbca=RojC?@qseYM@W5in6uUy@9xJUOJcriHj; at-acbca=Atza|IwEBIHTQYrK4NscwHLzzZYY56IeISswNv2sjWwan1e0BD6YFnQcr_VyGa0i4NM2wwxOJeStxHVEaSaZb4Qv-Esonhk2LiJF1tb9IuIHcTwJshYmlgnGQaz4W-4akdHvCTIlDt6FJLs0YGWmfUicqLhg5I9zuengheV8-bL_6d_YuiJXD9c0KSEnZOEoc04HQUQrj601M_2GrC6fbzkQf0Bkd9OLJ",
   }
 };
 
