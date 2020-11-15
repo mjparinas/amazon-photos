@@ -41,7 +41,7 @@ async function downloadPhotos(photos) {
     let batch = [];
 
     for (let j = 0; j < BATCH_SIZE; j++) {
-      const { id, name, ownerId } = photos[i * BATCH_SIZE + j - 1];  
+      const { id, name, ownerId } = photos[i * BATCH_SIZE + j];  
 
       if (fs.existsSync(`./images/${name}`)) {
         console.log(`Skipping image ${name}: ${i * BATCH_SIZE + j} of ${photos.length}`);
