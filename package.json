@@ -2,5 +2,14 @@
   "name": "amazon-photos",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
 }
