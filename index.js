@@ -50,6 +50,11 @@ async function downloadPhotos(photos) {
           api.get(`nodes/${id}/contentRedirection?querySuffix=%3Fdownload%3Dtrue&ownerId=${ownerId}`, {responseType: 'arraybuffer', ...headers }).then(image => {
             console.log(`Saving image ${name}: ${i * BATCH_SIZE + j} of ${photos.length}`);
             fs.writeFileSync(`./images/${name}`, image.data);
+          }).catch(error => {
+            if (error.response) {
+              console.log(`Error: ${error.response.status}`);
+              console.log(error.response.data);
+            }
           })
         );
       }
